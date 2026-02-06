@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  font-weight: normal;
 }
 ul,
 ol {
@@ -36,6 +37,9 @@ select {
   color: inherit;
   background: transparent;
   outline: none;
+  border: none;
+  font-size: inherit;
+  line-height: inherit;
 }
 button,
 input[type="submit"],
@@ -44,6 +48,7 @@ label {
 }
 table {
   border-collapse: collapse;
+  border-spacing: 0;
 }
 :focus {
   outline: 3px solid Highlight;
